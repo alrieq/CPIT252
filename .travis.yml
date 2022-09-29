@@ -1,0 +1,18 @@
+{
+  "language": "java",
+  "sudo": false,
+  "jdk": [
+    "openjdk11"
+  ],
+  "script": [
+    "cd ./lab2/",
+    "mvn clean package",
+    "mvn test package",
+    "cd ./lab2/demo/",
+    "mvn clean package",
+    "mvn test package"
+  ],
+  "after_success": [
+    "bash <(curl -s https://codecov.io/bash)"
+  ]
+}

@@ -8,6 +8,7 @@
     "cd ./lab2/",
     "mvn clean package",
     "mvn test package",
+    "cd ..",
     "cd ./lab2/demo/",
     "mvn clean package",
     "mvn test package"

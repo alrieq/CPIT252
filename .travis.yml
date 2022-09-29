@@ -9,8 +9,7 @@
     "mvn clean package",
     "mvn test package",
     "cd ..",
-    "ls",
-    "cd ./lab2/demo/",
+    "cd ./lab3/demo/",
     "mvn clean package",
     "mvn test package"
   ],

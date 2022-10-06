@@ -11,6 +11,10 @@
     "cd ..",
     "cd ./lab3/demo/",
     "mvn clean package",
+    "mvn test package",
+    "cd ..",
+    "cd ./lab-04-main",
+    "mvn clean package",
     "mvn test package"
   ],
   "after_success": [

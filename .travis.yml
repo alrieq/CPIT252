@@ -13,6 +13,7 @@
     "mvn clean package",
     "mvn test package",
     "cd ..",
+    "cd ..",
     "cd ./lab-04-main",
     "mvn clean package",
     "mvn test package"

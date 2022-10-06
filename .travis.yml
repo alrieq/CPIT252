@@ -12,11 +12,6 @@
     "cd ./lab3/demo/",
     "mvn clean package",
     "mvn test package",
-    "cd ..",
-    "cd ..",
-    "cd ./lab-04-main",
-    "mvn clean package",
-    "mvn test package"
   ],
   "after_success": [
     "bash <(curl -s https://codecov.io/bash)"
